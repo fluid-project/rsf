@@ -1,0 +1,824 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html id="top" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>
+    RSF Wiki: User Preferences
+  </title>
+  
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" media="screen, projection, print" type="text/css"
+     href="templates/default/jspwiki.css"/>
+
+<link rel="stylesheet" type="text/css" media="print" 
+     href="templates/default/jspwiki_print.css" />
+<!-- INCLUDERESOURCES (stylesheet) -->
+
+<!-- INCLUDERESOURCES (inlinecss) -->
+
+
+
+<noscript>
+<style type="text/css">
+#hiddenmorepopup { display:block; }
+</style>
+</noscript>
+
+
+<script type="text/javascript" src="scripts/mootools.js"></script>
+<script type="text/javascript" src="scripts/prettify.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-common.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-commonstyles.js"></script>
+<script type='text/javascript' src='scripts/jspwiki-prefs.js'></script>
+
+
+
+
+
+<meta name="wikiContext" content='prefs' />
+<meta name="wikiBaseUrl" content='http://rsf.fluidproject.org/wiki/' />
+<meta name="wikiPageUrl" content='/wiki/Wiki.jsp?page=%23%24%25' />
+<meta name="wikiEditUrl" content='/wiki/Edit.jsp?page=Main' />
+<meta name="wikiJsonUrl" content='/wiki/JSON-RPC' />
+<meta name="wikiPageName" content='Main' />
+<meta name="wikiUserName" content='205.211.169.35' />
+<meta name="wikiTemplateUrl" content='/wiki/templates/default/' />
+<meta name="wikiApplicationName" content='RSF Wiki' />
+
+<script type="text/javascript">//<![CDATA[
+/* Localized javascript strings: LocalizedStrings[] */
+var LocalizedStrings = {
+"javascript.edit.allsections":"( All )",
+"javascript.slimbox.error":"<h2>Error</h2>There was a problem with your request.<br />Please try again",
+"javascript.slimbox.remoteRequest":"Remote Request {0} of {1}",
+"javascript.slimbox.close":"Close &#215;",
+"javascript.quick.edit":"[Edit]",
+"javascript.sort.descending":"Descending order. Click to reverse sort order",
+"javascript.expand":"Click to expand",
+"javascript.group.validName":"Please provide a valid name for the new Group",
+"javascript.slimbox.next":"Next&raquo;",
+"javascript.filter.all":"( All )",
+"javascript.edit.areyousure":"Without clicking the Save button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.quick.edit.title":"Edit section {0}...",
+"javascript.slimbox.directLink":"Direct Link to the target",
+"javascript.prefs.areyousure":"Without clicking the Save User Preferences button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.sbox.clone.suffix":"-New",
+"javascript.slimbox.info":"Image {0} of {1}",
+"javascript.tip.default.title":"More...",
+"javascript.edit.resize":"Drag to resize the text area",
+"javascript.edit.findandreplace.nomatch":"No match found!",
+"javascript.sort.ascending":"Ascending order. Click to reverse sort order",
+"javascript.slimbox.close.title":"Close [Esc]",
+"javascript.edit.toolbar.makeSelection":"Please make first a selection.",
+"javascript.favs.hide":"Click to hide Favorites",
+"javascript.sectionediting.label":"Section Overview",
+"javascript.slimbox.previous":"&laquo;Previous",
+"javascript.favs.show":"Click to show Favorites",
+"javascript.collapse":"Click to collapse",
+"javascript.category.title":"Click to show category [{0}] ...",
+"javascript.sort.click":"Click to sort",
+"javascript.edit.startOfPage":"( Start of page )"
+};
+
+
+/* INCLUDERESOURCES (jsfunction) */
+
+//]]></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="search" href="Wiki.jsp%3Fpage=FindPage.html"
+    title='Search RSF Wiki' />
+<link rel="help"   href="Wiki.jsp%3Fpage=TextFormattingRules.html"
+    title="Help" />
+
+ <link rel="start"  href="Wiki.jsp%3Fpage=Main.html"
+    title="Front page" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki_print.css"
+    title="Print friendly" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki.css"
+    title="Standard" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    <meta name="robots" content="noindex,follow" />
+  
+</head>
+
+<body class="view">
+
+<div id="wikibody" class="fav-left">
+ 
+  
+
+
+
+
+
+
+<div id="header">
+
+  <div class="titlebox"></div>
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=User+Preferences.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+
+  <div class="clearbox"></div>
+
+</div>
+
+  <div class="pagename">User Preferences</div>
+
+  <div class="searchbox">
+
+
+
+
+
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/Search.jsp"
+        class="wikiform"
+           id="searchForm" accept-charset="UTF-8">
+
+  <div style="position:relative">
+  <input onblur="if( this.value == '' ) { this.value = this.defaultValue }; return true; "
+        onfocus="if( this.value == this.defaultValue ) { this.value = ''}; return true; "
+           type="text" value="Quick Navigation"
+           name="query" id="query"
+           size="20" 
+      accesskey="f" />
+  <button type="submit"
+  		 name="searchSubmit" id="searchSubmit"
+  		value="Go!"
+  		title="Go!"></button>
+  </div>
+  <div id="searchboxMenu" style='visibility:hidden;'>
+    <div id="searchTools">
+      <a href="UserPreferences.jsp%3Fredirect=BugVyKPsuBomcm.html#" id='quickView' class='action'
+      onclick="SearchBox.navigate( '/wiki/Wiki.jsp?page=__PAGEHERE__','View the selected page' );"
+        title="View the selected page">view</a>
+      <a href="UserPreferences.jsp%3Fredirect=BugVyKPsuBomcm.html#" id='quickEdit' class='action'
+      onclick="SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__','Edit the selected page' );"
+        title="Edit the selected page">edit</a>
+      <a href="UserPreferences.jsp%3Fredirect=BugVyKPsuBomcm.html#" id='quickClone' class='action'	
+      onclick="return SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__', 'Clone the selected page', true );"
+        title="Clone the selected page">clone</a>
+      <a href="UserPreferences.jsp%3Fredirect=BugVyKPsuBomcm.html#" id="advancedSearch" class='action'
+      onclick="SearchBox.navigate( 'http://rsf.fluidproject.org/wiki/Search.jsp?query=__PAGEHERE__','Main' )"
+        title="Advanced Search [ f ]">find</a>
+    </div>
+    <div id="searchResult" >
+	  Quick search
+      <span id="searchTarget" >(type ahead)</span>
+      <span id="searchSpin" class="spin" style="position:absolute;display:none;"></span>
+	  <div id="searchOutput" ></div>
+    </div>
+    <div id="recentSearches" style="display:none;">
+      Recent Searches
+      <span><a href="UserPreferences.jsp%3Fredirect=BugVyKPsuBomcm.html#" id="recentClear">(Clear)</a></span>
+    </div>
+  </div>
+
+</form></div>
+
+  <div class="breadcrumbs">Your trail:&nbsp;<a class="wikipage" href="Wiki.jsp%3Fpage=ValueBinding.html">ValueBinding</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=VariableTag.html">VariableTag</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=VeryLazyBeans.html">VeryLazyBeans</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ViewID.html">ViewID</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ViewRender.html">ViewRender</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WeblogEntryPlugin.html">WeblogEntryPlugin</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WeblogPlugin.html">WeblogPlugin</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WikiFormsExampleText.html">WikiFormsExampleText</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=XPP.html">XPP</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=AntranigBasman.html">AntranigBasman</a></div>
+
+</div>
+
+  <div id="content">
+
+    <div id="page">
+      
+
+
+
+
+
+<div id="actionsTop" class="pageactions"> 
+  <ul>
+
+    
+
+    
+    <li id="morebutton">
+      <a href="Wiki.jsp%3Fpage=MoreMenu.html" class="action more">More...</a>
+    </li>
+
+  </ul>
+</div>
+
+      
+
+
+
+
+
+
+
+
+<div class="tabmenu">
+
+  
+
+  
+  
+  
+
+
+
+  <a class="activetab" id="menu-prefs" accesskey="p" ><span class='accesskey'>P</span>references</a>
+
+  
+  
+  
+
+</div>
+<div class="tabs">
+
+  <div id="prefs" >
+
+     
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+<h3>User Preferences</h3>
+
+
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/UserPreferences.jsp?tab=prefs" 
+       class="wikiform" 
+          id="setCookie"
+      method="post" accept-charset="UTF-8"
+    onsubmit="WikiPreferences.savePrefs(); return Wiki.submitOnce(this);" >
+<table>
+
+  <tr>
+  <td><label for="assertedName">Name</label></td>
+  <td> 
+  <input type="text" id="assertedName" name="assertedName" size="20" value="205.211.169.35" />
+  
+  </td>
+  </tr>
+  
+  <tr>
+  <td>&nbsp;</td>
+  <td>
+  <div class="formhelp">
+    Your name. If you haven&#8217;t created a user profile yet, you can tell RSF Wiki who you are by &#8216;asserting&#8217; an identity. You wouldn&#8217;t lie to us would you? <br /> Note that setting your user name this way isn&#8217;t a real method of authentication, because it just sets a cookie in your browser without requiring a password. Depending on the security policy, the wiki may grant you fewer privileges as an &#8220;asserted&#8221; user. RSF Wiki if you would prefer a traditional username and password, which is more secure.
+  </div>
+  </td>
+  </tr>
+  
+
+  <tr>
+  <td><label for="editor">Editor</label></td>
+  <td>
+    <select id="editor" name="editor">
+      
+        <option selected='selected' value="plain">plain</option>
+      
+  </select>
+  </td>
+  </tr>
+  
+  <tr>
+  <td><label for="prefSectionEditing">Section Editing</label></td>
+  <td>
+  <input id="prefSectionEditing" name="prefSectionEditing" 
+       type="checkbox"  ></input>
+  Enable section editing via <span class="editsection"><a href="UserPreferences.jsp%3Fredirect=BugVyKPsuBomcm.html#">[edit]</a></span> links
+  </td>
+  </tr>
+  
+  <tr>
+  <td><label for="prefSkin">Skin</label></td>
+  <td>
+  <select id="prefSkin" name="prefSkin">
+    
+      <option value='OrderedList'  >OrderedList</option>
+    
+      <option value='PlainVanilla' selected="selected" >PlainVanilla</option>
+    
+      <option value='PlainVanilla 1024x768'  >PlainVanilla 1024x768</option>
+    
+      <option value='Smart'  >Smart</option>
+    
+  </select>
+  </td>
+  </tr>
+
+
+  
+  
+  <tr>
+  <td><label for="prefLanguage">Language</label></td>
+  <td>
+  <select id="prefLanguage" name="prefLanguage">
+    
+      <option value="de"  >Deutsch </option>
+    
+      <option value="en" selected="selected" >English [DEFAULT]</option>
+    
+      <option value="es"  >español </option>
+    
+      <option value="fi"  >suomi </option>
+    
+      <option value="fr"  >français </option>
+    
+      <option value="it"  >italiano </option>
+    
+      <option value="nl"  >Nederlands </option>
+    
+      <option value="ru"  >русский </option>
+    
+      <option value="zh_CN"  >中文 (中国) </option>
+    
+  </select>
+  </td>
+  </tr>
+  
+
+  <tr>
+  <td><label for="prefOrientation">Favorites style</label></td>
+  <td>
+  <select id="prefOrientation" name="prefOrientation" onclick="Wiki.changeOrientation();">
+      <option value='fav-left' selected="selected" >Left</option>
+      <option value='fav-right'  >Right</option>
+  </select>
+  </td>
+  </tr>
+
+  <tr>
+  <td><label for="prefTimeFormat">Time Format</label></td>
+  <td>
+  <select id="prefTimeFormat" name="prefTimeFormat" >
+    
+      <option value='d/MM'  >14/08</option>
+    
+      <option value='d/MM/yy'  >14/08/15</option>
+    
+      <option value='d/MM/yyyy'  >14/08/2015</option>
+    
+      <option value='dd/MM/yy'  >14/08/15</option>
+    
+      <option value='dd/MM/yyyy'  >14/08/2015</option>
+    
+      <option value='EEE, dd/MM/yyyy'  >Fri, 14/08/2015</option>
+    
+      <option value='EEE, dd/MM/yyyy, Z'  >Fri, 14/08/2015, -0400</option>
+    
+      <option value='EEE, dd/MM/yyyy, zzzz'  >Fri, 14/08/2015, Eastern Daylight Time</option>
+    
+      <option value='d/MM/yy HH:mm'  >14/08/15 16:51</option>
+    
+      <option value='d/MM/yy hh:mm a'  >14/08/15 04:51 PM</option>
+    
+      <option value='d/MM/yy hh:mm a, Z'  >14/08/15 04:51 PM, -0400</option>
+    
+      <option value='dd-MMM'  >14-Aug</option>
+    
+      <option value='dd-MMM-yy'  >14-Aug-15</option>
+    
+      <option value='dd-MMM-yyyy'  >14-Aug-2015</option>
+    
+      <option value='EEE, dd-MMM-yyyy'  >Fri, 14-Aug-2015</option>
+    
+      <option value='EEE, dd-MMM-yyyy, Z'  >Fri, 14-Aug-2015, -0400</option>
+    
+      <option value='EEE, dd-MMM-yyyy, zzzz'  >Fri, 14-Aug-2015, Eastern Daylight Time</option>
+    
+      <option value='dd-MMM-yyyy HH:mm' selected="selected" >14-Aug-2015 16:51</option>
+    
+      <option value='dd-MMM-yyyy hh:mm a'  >14-Aug-2015 04:51 PM</option>
+    
+      <option value='dd-MMM-yyyy hh:mm a, Z'  >14-Aug-2015 04:51 PM, -0400</option>
+    
+      <option value='MMMM dd, yyyy'  >August 14, 2015</option>
+    
+      <option value='MMMM dd, yyyy HH:mm'  >August 14, 2015 16:51</option>
+    
+      <option value='MMMM dd, yyyy hh:mm a'  >August 14, 2015 04:51 PM</option>
+    
+      <option value='MMMM, EEE dd,yyyy hh:mm a'  >August, Fri 14,2015 04:51 PM</option>
+    
+      <option value='MMMM, EEEE dd,yyyy hh:mm a'  >August, Friday 14,2015 04:51 PM</option>
+    
+      <option value='dd.MM.yyyy'  >14.08.2015</option>
+    
+      <option value='dd.MM.yyyy, HH:mm'  >14.08.2015, 16:51</option>
+    
+      <option value='dd.MM.yyyy, HH:mm zz'  >14.08.2015, 16:51 EDT</option>
+    
+      <option value='EEEE, dd.MM.yyyy'  >Friday, 14.08.2015</option>
+    
+      <option value='EE, dd.MM.yyyy, HH:mm zz'  >Fri, 14.08.2015, 16:51 EDT</option>
+    
+      <option value='EEEE, d. MMMM yyyy, HH:mm zz'  >Friday, 14. August 2015, 16:51 EDT</option>
+    
+      <option value='yyyy-MM-dd, HH:mm zz'  >2015-08-14, 16:51 EDT</option>
+    
+      <option value='yyyy-MM-dd, EEEE'  >2015-08-14, Friday</option>
+    
+      <option value='d.M.yyyy'  >14.8.2015</option>
+    
+      <option value='d.M.yyyy H:mm'  >14.8.2015 16:51</option>
+    
+      <option value='yyyy-MM-dd HH:mm:ss'  >2015-08-14 16:51:44</option>
+    
+      <option value='yyyyMMdd&#039;T&#039;HHmmss'  >20150814T165144</option>
+    
+  </select>
+  </td>
+  </tr>
+
+  <tr>
+  <td><label for="prefTimeZone">Time Zone</label></td>
+  <td>
+  <select id='prefTimeZone' name='prefTimeZone'>
+    
+      <option value='GMT-12'  >(GMT-12) Enitwetok, Kwajalien </option>
+    
+      <option value='GMT-11'  >(GMT-11) Nome, Midway Island, Samoa </option>
+    
+      <option value='GMT-10'  >(GMT-10) Hawaii </option>
+    
+      <option value='GMT-9'  >(GMT-9) Alaska </option>
+    
+      <option value='GMT-8'  >(GMT-8) Pacific Time </option>
+    
+      <option value='GMT-7'  >(GMT-7) Mountain Time </option>
+    
+      <option value='GMT-6'  >(GMT-6) Central Time, Mexico City </option>
+    
+      <option value='America/Toronto' selected="selected" >(GMT-5) Eastern Time, Bogota, Lima, Quito [SERVER]</option>
+    
+      <option value='GMT-4'  >(GMT-4) Atlantic Time, Caracas, La Paz </option>
+    
+      <option value='GMT-3:30'  >(GMT-3:30) Newfoundland </option>
+    
+      <option value='GMT-3'  >(GMT-3) Brazil, Buenos Aires, Georgetown, Falkland Is. </option>
+    
+      <option value='GMT-2'  >(GMT-2) Mid-Atlantic, Ascention Is., St Helena </option>
+    
+      <option value='GMT-1'  >(GMT-1) Azores, Cape Verde Islands </option>
+    
+      <option value='GMT'  >(GMT) Casablanca, Dublin, Edinburgh, London, Lisbon, Monrovia </option>
+    
+      <option value='GMT+1'  >(GMT+1) Berlin, Brussels, Copenhagen, Madrid, Paris, Rome </option>
+    
+      <option value='GMT+2'  >(GMT+2) Helsinki, Athens, Kaliningrad, South Africa, Warsaw </option>
+    
+      <option value='GMT+3'  >(GMT+3) Baghdad, Riyadh, Moscow, Nairobi </option>
+    
+      <option value='GMT+3:30'  >(GMT+3:30) Tehran </option>
+    
+      <option value='GMT+4'  >(GMT+4) Adu Dhabi, Baku, Muscat, Tbilisi </option>
+    
+      <option value='GMT+4:30'  >(GMT+4:30) Kabul </option>
+    
+      <option value='GMT+5'  >(GMT+5) Islamabad, Karachi, Tashkent </option>
+    
+      <option value='GMT+5:30'  >(GMT+5:30) Bombay, Calcutta, Madras, New Delhi </option>
+    
+      <option value='GMT+6'  >(GMT+6) Almaty, Colomba, Dhakra </option>
+    
+      <option value='GMT+7'  >(GMT+7) Bangkok, Hanoi, Jakarta </option>
+    
+      <option value='GMT+8'  >(GMT+8) Beijing, Hong Kong, Perth, Singapore, Taipei </option>
+    
+      <option value='GMT+9'  >(GMT+9) Osaka, Sapporo, Seoul, Tokyo, Yakutsk </option>
+    
+      <option value='GMT+9:30'  >(GMT+9:30) Adelaide, Darwin </option>
+    
+      <option value='GMT+10'  >(GMT+10) Melbourne, Papua New Guinea, Sydney, Vladivostok </option>
+    
+      <option value='GMT+11'  >(GMT+11) Magadan, New Caledonia, Solomon Islands </option>
+    
+      <option value='GMT+12'  >(GMT+12) Auckland, Wellington, Fiji, Marshall Island </option>
+    
+  </select>
+  </td>
+  </tr>
+
+  
+ <tr>
+  <td>&nbsp;</td>
+  <td>
+    <input type="submit" name="ok" value="Save User Preferences" 
+      accesskey="s" />
+    <input type="hidden" name="redirect" value="BugVyKPsuBomcm" />
+    <input type="hidden" name="action" value="setAssertedName" />
+    <div class="formhelp">Your choices will be saved in your browser as cookies.</div>
+  </td>
+  </tr>
+
+</table>
+</form>
+  
+<!-- Clearing the 'asserted name' and other prefs in the cookie -->
+
+
+<h3>Clear User Preferences</h3>
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/UserPreferences.jsp?tab=prefs"
+          id="clearCookie"
+    onsubmit="Wiki.prefs.empty(); return Wiki.submitOnce( this );" 
+      method="post" accept-charset="UTF-8" >
+  <div>
+  <input type="submit" name="ok" value="Clear User Preferences" />
+  <input type="hidden" name="action" value="clearAssertedName" />
+  </div>
+  <div class="formhelp">In some cases, you may need to remove your &#8216;asserted&#8217; user name and your user preferences from this computer. Click the &#8216;Clear User Preferences&#8217; button to do that. <br /> Note that it will remove all user preferences you&#8217;ve set up, permanently. You will need to enter them again.</div>
+
+</form>
+
+
+  </div>
+
+
+  
+  
+  
+
+<div style="clear:both;" ></div>
+</div>
+
+      
+
+
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+<div id="favorites">
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=User+Preferences.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+
+  <div class="clearbox"></div>
+
+</div>
+  
+  <div id="hiddenmorepopup">
+  <ul id="morepopup">
+     
+    
+       
+     
+        
+  
+      
+      
+      
+
+      
+	  <li class='separator'>
+        <div id="moremenu" ></div>
+      </li>
+  </ul>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+  <div class="leftmenu">
+    <p><a class="wikipage" href="Wiki.jsp%3Fpage=Main.html">Main page</a><br />
+<tt> </tt><i><a class="wikipage" href="Wiki.jsp%3Fpage=ThisWiki.html">About</a></i><br />
+</p><p><a class="wikipage" href="Wiki.jsp%3Fpage=GettingStarted.html">Getting Started</a><br />
+</p>
+<p><b>Documentation</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Developers.html">Developers</a><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Javadocs.html">Javadocs</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Designers.html">Designers</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=SampleRSFApps.html">Sample RSF Apps</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Presentations.html">Presentations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Acronyms.html">Acronyms</a><br />
+</p>
+<p><b>Downloads</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Downloads.html">Current Release</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=TrunkCode.html">Trunk</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=CodeDistributions.html">Distributions</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=OldCode.html">Old Versions</a><br />
+</p>
+<p><b>Community</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=QampA.html">Q&amp;A</a><br />
+<tt> </tt><a class="external" href="http://ponder.org.uk/rsf/">Forums</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=EmailLists.html">Mailing Lists</a><br />
+<tt> </tt><a class="external" href="http://www.caret.cam.ac.uk/jira/browse/RSF">Issue Tracker</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=azeckoski.html">People</a><br />
+</p>
+<p><b>Design</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Roadmap.html">Roadmap</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Concepts.html">Concepts</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Philosophy.html">Philosophy</a><br />
+</p>
+<div style="font-style:italic;font-size:0.8em;">
+<b>Pages</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=FindPage.html">Find</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=RecentChanges.html">Recent Changes</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UnusedPages.html">Unused</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UndefinedPages.html">Undefined</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=PageIndex.html">Index</a>
+</div>
+<p />
+    
+  </div>
+  
+  <div class="leftmenufooter">
+    <hr />
+<p><b>Referenced by</b><br />
+<a class="wikipage" href="Wiki.jsp%3Fpage=LeftMenu.html">LeftMenu</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=TextFormattingRules.html">TextFormattingRules</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=ThisWiki.html">ThisWiki</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=UndefinedPages.html">UndefinedPages</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=WeblogArchivePlugin.html">WeblogArchivePlugin</a><br />
+</p>
+    
+  </div>
+
+  
+
+  
+  
+  <div class="wikiversion">JSPWiki v2.8.2
+  <span class="rssfeed">
+    
+  </span>
+  </div>  
+  
+</div>
+
+	<div class="clearbox"></div>
+  </div>
+
+  
+
+
+
+
+
+ 
+<div id="footer">
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  <div class="copyright"></div>
+
+  <div class="wikiversion">
+    JSPWiki v2.8.2
+  </div>
+
+  <div class="rssfeed">
+    
+  </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+

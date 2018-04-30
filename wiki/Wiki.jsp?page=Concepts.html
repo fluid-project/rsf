@@ -1,0 +1,697 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html id="top" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>
+    RSF Wiki: Concepts
+  </title>
+  
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" media="screen, projection, print" type="text/css"
+     href="templates/default/jspwiki.css"/>
+
+<link rel="stylesheet" type="text/css" media="print" 
+     href="templates/default/jspwiki_print.css" />
+<!-- INCLUDERESOURCES (stylesheet) -->
+
+<!-- INCLUDERESOURCES (inlinecss) -->
+
+
+
+<noscript>
+<style type="text/css">
+#hiddenmorepopup { display:block; }
+</style>
+</noscript>
+
+
+<script type="text/javascript" src="scripts/mootools.js"></script>
+<script type="text/javascript" src="scripts/prettify.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-common.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-commonstyles.js"></script>
+<!-- INCLUDERESOURCES (script) -->
+
+
+
+
+
+<meta name="wikiContext" content='view' />
+<meta name="wikiBaseUrl" content='http://rsf.fluidproject.org/wiki/' />
+<meta name="wikiPageUrl" content='/wiki/Wiki.jsp?page=%23%24%25' />
+<meta name="wikiEditUrl" content='/wiki/Edit.jsp?page=Concepts' />
+<meta name="wikiJsonUrl" content='/wiki/JSON-RPC' />
+<meta name="wikiPageName" content='Concepts' />
+<meta name="wikiUserName" content='205.211.169.35' />
+<meta name="wikiTemplateUrl" content='/wiki/templates/default/' />
+<meta name="wikiApplicationName" content='RSF Wiki' />
+
+<script type="text/javascript">//<![CDATA[
+/* Localized javascript strings: LocalizedStrings[] */
+var LocalizedStrings = {
+"javascript.edit.allsections":"( All )",
+"javascript.slimbox.error":"<h2>Error</h2>There was a problem with your request.<br />Please try again",
+"javascript.slimbox.remoteRequest":"Remote Request {0} of {1}",
+"javascript.slimbox.close":"Close &#215;",
+"javascript.quick.edit":"[Edit]",
+"javascript.sort.descending":"Descending order. Click to reverse sort order",
+"javascript.expand":"Click to expand",
+"javascript.group.validName":"Please provide a valid name for the new Group",
+"javascript.slimbox.next":"Next&raquo;",
+"javascript.filter.all":"( All )",
+"javascript.edit.areyousure":"Without clicking the Save button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.quick.edit.title":"Edit section {0}...",
+"javascript.slimbox.directLink":"Direct Link to the target",
+"javascript.prefs.areyousure":"Without clicking the Save User Preferences button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.sbox.clone.suffix":"-New",
+"javascript.slimbox.info":"Image {0} of {1}",
+"javascript.tip.default.title":"More...",
+"javascript.edit.resize":"Drag to resize the text area",
+"javascript.edit.findandreplace.nomatch":"No match found!",
+"javascript.sort.ascending":"Ascending order. Click to reverse sort order",
+"javascript.slimbox.close.title":"Close [Esc]",
+"javascript.edit.toolbar.makeSelection":"Please make first a selection.",
+"javascript.favs.hide":"Click to hide Favorites",
+"javascript.sectionediting.label":"Section Overview",
+"javascript.slimbox.previous":"&laquo;Previous",
+"javascript.favs.show":"Click to show Favorites",
+"javascript.collapse":"Click to collapse",
+"javascript.category.title":"Click to show category [{0}] ...",
+"javascript.sort.click":"Click to sort",
+"javascript.edit.startOfPage":"( Start of page )"
+};
+
+
+/* INCLUDERESOURCES (jsfunction) */
+
+//]]></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="search" href="Wiki.jsp%3Fpage=FindPage.html"
+    title='Search RSF Wiki' />
+<link rel="help"   href="Wiki.jsp%3Fpage=TextFormattingRules.html"
+    title="Help" />
+
+ <link rel="start"  href="Wiki.jsp%3Fpage=Main.html"
+    title="Front page" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki_print.css"
+    title="Print friendly" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki.css"
+    title="Standard" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+</head>
+
+<body class="view">
+
+<div id="wikibody" class="fav-left">
+ 
+  
+
+
+
+
+
+
+<div id="header">
+
+  <div class="titlebox"></div>
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=Concepts.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+  
+    <a href="UserPreferences.jsp%3Fredirect=Concepts.html"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+
+  <div class="clearbox"></div>
+
+</div>
+
+  <div class="pagename">Concepts</div>
+
+  <div class="searchbox">
+
+
+
+
+
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/Search.jsp"
+        class="wikiform"
+           id="searchForm" accept-charset="UTF-8">
+
+  <div style="position:relative">
+  <input onblur="if( this.value == '' ) { this.value = this.defaultValue }; return true; "
+        onfocus="if( this.value == this.defaultValue ) { this.value = ''}; return true; "
+           type="text" value="Quick Navigation"
+           name="query" id="query"
+           size="20" 
+      accesskey="f" />
+  <button type="submit"
+  		 name="searchSubmit" id="searchSubmit"
+  		value="Go!"
+  		title="Go!"></button>
+  </div>
+  <div id="searchboxMenu" style='visibility:hidden;'>
+    <div id="searchTools">
+      <a href="Wiki.jsp%3Fpage=Concepts.html#" id='quickView' class='action'
+      onclick="SearchBox.navigate( '/wiki/Wiki.jsp?page=__PAGEHERE__','View the selected page' );"
+        title="View the selected page">view</a>
+      <a href="Wiki.jsp%3Fpage=Concepts.html#" id='quickEdit' class='action'
+      onclick="SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__','Edit the selected page' );"
+        title="Edit the selected page">edit</a>
+      <a href="Wiki.jsp%3Fpage=Concepts.html#" id='quickClone' class='action'	
+      onclick="return SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__', 'Clone the selected page', true );"
+        title="Clone the selected page">clone</a>
+      <a href="Wiki.jsp%3Fpage=Concepts.html#" id="advancedSearch" class='action'
+      onclick="SearchBox.navigate( 'http://rsf.fluidproject.org/wiki/Search.jsp?query=__PAGEHERE__','Concepts' )"
+        title="Advanced Search [ f ]">find</a>
+    </div>
+    <div id="searchResult" >
+	  Quick search
+      <span id="searchTarget" >(type ahead)</span>
+      <span id="searchSpin" class="spin" style="position:absolute;display:none;"></span>
+	  <div id="searchOutput" ></div>
+    </div>
+    <div id="recentSearches" style="display:none;">
+      Recent Searches
+      <span><a href="Wiki.jsp%3Fpage=Concepts.html#" id="recentClear">(Clear)</a></span>
+    </div>
+  </div>
+
+</form></div>
+
+  <div class="breadcrumbs">Your trail:&nbsp;<a class="wikipage" href="Wiki.jsp%3Fpage=Javadocs.html">Javadocs</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=Presentations.html">Presentations</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=Acronyms.html">Acronyms</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=TrunkCode.html">TrunkCode</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=CodeDistributions.html">CodeDistributions</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=OldCode.html">OldCode</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=QampA.html">QampA</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=EmailLists.html">EmailLists</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=azeckoski.html">People</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a></div>
+
+</div>
+
+  <div id="content">
+
+    <div id="page">
+      
+
+
+
+
+
+<div id="actionsTop" class="pageactions"> 
+  <ul>
+
+    
+    
+    
+
+    
+    <li id="morebutton">
+      <a href="Wiki.jsp%3Fpage=MoreMenu.html" class="action more">More...</a>
+    </li>
+
+  </ul>
+</div>
+
+      
+
+
+
+
+
+
+
+
+<div class="tabmenu">
+
+  
+
+  
+
+  
+  
+  
+    
+  
+    
+  
+
+
+
+  <a class="activetab" id="menu-pagecontent" accesskey="v" ><span class='accesskey'>V</span>iew</a>
+
+  
+
+  
+  <a id="menu-attach" accesskey="a" ><span class='accesskey'>A</span>ttach</a>
+  
+    
+  <a id="menu-info" href='PageInfo.jsp%3Fpage=Concepts.html' accesskey="i" ><span class='accesskey'>I</span>nfo</a>
+    
+  
+
+</div>
+<div class="tabs">
+
+  <div id="pagecontent" >
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<p>Programming with RSF regularly brings up certain objects or concepts, some new and some familiar (to those who have used other frameworks such as Spring or JSF).
+</p><p />
+<div style=" background-color: #ffc0c0; border: 1px dotted black; padding: 0.2em; ">
+NEW!!! Now sorted into alphabetical order!
+</div>
+<p><b>Action</b><br />
+<tt>  </tt>An (application-defined) RSF <a class="wikipage" href="Wiki.jsp%3Fpage=Action.html">Action</a> may be invoked by the framework in order to handle an action (POST) request.
+</p>
+<p><b>Action Result Interpreter</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=ActionResultInterpreter.html">ActionResultInterpreter</a> marks the last stage of action request processing, and an important site for application configuration. It inspects the result of the just-concluded <a class="wikipage" href="Wiki.jsp%3Fpage=Action.html">Action</a> and computes the next view to be shown.
+</p>
+<p><b>Bean Exploder</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=BeanExploder.html">BeanExploder</a> is a bean definition for a <a class="wikipage" href="Wiki.jsp%3Fpage=RequestScopeBeans.html">request-scope bean</a> that &quot;explodes&quot; a bean prototype into a freely-addressed, lazily evaluated address space. The key to RSF's ORM philosophy, as well as the solution to the Spring &quot;lost non-singleton&quot; problem.
+</p>
+<p><b>Bean Line</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=BeanLine.html">BeanLine</a> is a hypothetical line of dependency dividing code with a dependence on a framework from code without it.
+</p>
+<p><b>Bean Locator</b><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=BeanLocator.html">BeanLocator</a> is a one-method interface that abstracts the location of a bean by name from its container. It is the central interface enabling <a class="wikipage" href="Wiki.jsp%3Fpage=BeanReasonableness.html">BeanReasonableness</a>, by exposing an application's entire data model in a uniform address space.
+</p>
+<p><b>Bindings</b><br />
+<tt>  </tt>A <a class="wikipage" href="Wiki.jsp%3Fpage=Bindings.html">Binding</a> is an association expressed in <a class="wikipage" href="Wiki.jsp%3Fpage=EL.html">EL</a> to a part of the request model. In RSF, the behaviour of an <a class="wikipage" href="Wiki.jsp%3Fpage=Action.html">action</a> submission is expressed as a set of encoded bindings held in the client form, which may cause data to be read or written when the request is received. 
+</p>
+<p><b>Component Producer</b><br />
+<tt>  </tt>The job of a <a class="wikipage" href="Wiki.jsp%3Fpage=ComponentProducer.html">component producer</a> (or plain &quot;Producer&quot;) is to populate the <a class="wikipage" href="Wiki.jsp%3Fpage=View.html">View</a> tree with <a class="wikipage" href="Wiki.jsp%3Fpage=Component.html">components</a>.
+</p>
+<p><b>Component Tree</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=ComponentTree.html">ComponentTree</a> or <a class="wikipage" href="Wiki.jsp%3Fpage=View.html">View</a> is the main product of the <a class="wikipage" href="Wiki.jsp%3Fpage=ComponentProducer.html">component producer</a>. It consists of a tree of <a class="wikipage" href="Wiki.jsp%3Fpage=Component.html">UIComponent</a> objects, which specifies the abstract properties of the view to be rendered in this cycle, devoid of dependence on the rendering technology. In an MVC architecture, the component tree would constitute the controller layer.
+</p>
+<p><b>Evolver</b><br />
+<tt>  </tt>An <a class="wikipage" href="Wiki.jsp%3Fpage=Evolver.html">Evolver</a> is a specialised kind of <a class="wikipage" href="Wiki.jsp%3Fpage=ComponentProducer.html">Producer</a> which accepts an already constructed RSF primitive component as a <i>seed component</i> to repackage in an elaborated form, associated with its own section of markup. Evolvers and similar Producers are the vehicles for creating reusable &quot;widgets&quot; in RSF.
+</p>
+<p><b>Flow</b><br />
+<tt>  </tt>An RSF <a class="wikipage" href="Wiki.jsp%3Fpage=Flows.html">flow</a> is a chained collection of related requests, which combine rules for navigation together with a propagation of some state from the request bean map along the chain.
+</p>
+<p><b>Levelization</b><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Levelization.html">Levelization</a> is the organization (in the mind of the designer) of a codebase into a strict hierarchy based on knowledge or dependence.
+</p>
+<p><b>Oblets</b><br />
+<tt>  </tt>Oblets are OTP over TSH.
+</p>
+<p><b>Obstinate Map</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=ObstinateMap.html">Obstinate Map</a> is a concept that every now and then seems necessary in order to adapt bean models with dissimilar underlying semantics (primarily those from e.g. Hibernate with lazy evaluation semantics). Now evolved into the <a class="wikipage" href="Wiki.jsp%3Fpage=BeanLocator.html">BeanLocator</a> system.
+</p>
+<p><b>OLI</b><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=OLI.html">OLI</a> (One Line Interface) programming is highly valued in RSF. Many even quite modern frameworks feature unnecessarily fat and poorly decomposed interfaces (of which Java Collections is a prime example), or yet worse, no interfaces at all! The natural endpoint of a lightweight and flexible architecture is a preponderance of interfaces which contain just a single method.
+</p>
+<p><b>OTP</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=OTP.html">One True Path (OTP)</a> is an <a class="wikipage" href="Wiki.jsp%3Fpage=EL.html">EL</a> addressing idiom that is key to RSF's support for ORM 
+technologies.
+</p>
+<p><b>Parachute Rendering</b><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=ParachuteRendering.html">ParachuteRendering</a> is a key concept of <a class="wikipage" href="Wiki.jsp%3Fpage=IKAT.html">IKAT</a>'s <a class="wikipage" href="Wiki.jsp%3Fpage=Component.html">component</a> rendering model, where maximum use is made of contextual inspection of the view template before deciding on a rendering strategy.
+</p>
+<p><b>Peas</b><br />
+<tt>  </tt>A <a class="wikipage" href="Wiki.jsp%3Fpage=Peas.html">Pea</a> is like a bean only smaller - it uses direct field access for properties rather than getters and setters.
+</p>
+<p><b>Request Scope Application Context</b><br />
+RSF, in addition to being built out of application-scope <a class="external" href="http://www.springframework">Spring</a><img class="outlink" src="images/out.png" alt="" />-configured beans, also allows the definition of request-scope beans in standard Spring-formatted files. These form the <a class="wikipage" href="Wiki.jsp%3Fpage=RSAC.html">RequestScopeApplicationContext</a>.
+</p>
+<p><b>RSF EL (Expression Language)</b><br />
+<tt>  </tt>RSF adopts an <a class="wikipage" href="Wiki.jsp%3Fpage=EL.html">expression language</a> in order to map locations in the client's bean model to and from a string representation.
+</p>
+<p><b>RSVC Replay</b><br />
+<tt>  </tt>The <a class="wikipage" href="Wiki.jsp%3Fpage=RequestSubmittedValueCache.html">RequestSubmittedValueCache</a> is a log of all values received from the user during a request cycle. RSF can <a class="wikipage" href="Wiki.jsp%3Fpage=RSVCReplay.html">replay</a> this log to implement a lightweight and straightforward alternative to the <a class="wikipage" href="Wiki.jsp%3Fpage=LongTransaction.html">long transaction</a> functionality provided by some ORM solutions.
+</p>
+<p><b>Scoped beans</b><br />
+<tt>  </tt>RSF <a class="wikipage" href="Wiki.jsp%3Fpage=ScopedBeans.html">scoped beans</a> are complementary to its <a class="wikipage" href="Wiki.jsp%3Fpage=Flows.html">Flow</a> beans, in that these are both schemes for letting normal request-scope beans be given longer lifetimes by copying them back and forth between requests (typically via an HTTP session). Unlike Flow beans, scoped beans are not tied to a particular series of requests, but will persist until programmatically destroyed or their backing storage expires, whichever happens soonest.
+</p>
+<p><b>Seed component</b><br />
+<tt>  </tt>A seed component is a primitive RSF component used as an argument to an <a class="wikipage" href="Wiki.jsp%3Fpage=Evolver.html">Evolver</a>.
+</p>
+<p><b>View Parameters</b><br />
+A <a class="wikipage" href="Wiki.jsp%3Fpage=ViewParameters.html">ViewParameters</a> object holds a deserialized representation of the location of the view for the current request. This is held in a view-neutral &quot;bean tree&quot;.
+</p>
+<p><b>View Template</b><br />
+The <a class="wikipage" href="Wiki.jsp%3Fpage=ViewTemplate.html">view template</a> is a file (or collection of files) in the target XML dialect that is supplied to the <a class="wikipage" href="Wiki.jsp%3Fpage=IKAT.html">IKAT</a> renderer as its &quot;model&quot; for the output file it is to produce. These differ from the target dialect only through having one extra attribute, the <tt>rsf:id</tt> applied to any tags which require rewriting by the render process.
+</p>
+<p><b>View Token</b><br />
+<tt>  </tt>RSF allocates a unique <a class="wikipage" href="Wiki.jsp%3Fpage=ViewToken.html">token</a> to every view that it renders, allowing much more reliable browser semantics than are possible with <a class="wikipage" href="Wiki.jsp%3Fpage=SessionConsideredHarmful.html">session</a>-based solutions.
+</p>
+
+
+
+
+
+
+        
+  </div>
+
+
+  
+
+  
+  <div id="attach" class="hidetab" >
+
+    
+
+
+
+
+
+
+
+
+
+
+<div id="addattachment">
+<h3>Add new attachment</h3>
+
+
+<div class="formhelp">Only authorized users are allowed to upload new attachments.</div>
+
+</div>
+
+
+
+  </div>
+
+  
+    
+  <div id="info" class="hidetab" >
+
+  </div>
+
+    
+  
+
+<div style="clear:both;" ></div>
+</div>
+
+      
+
+
+
+
+
+
+
+<div id='actionsBottom' class="pageactions"> 
+    
+
+    <a href="Wiki.jsp%3Fpage=Concepts.html#top" 
+      class="action quick2top" 
+      title="Go to top" >&laquo;</a>
+
+    
+       This page (revision-) was last changed on <a href="Diff.jsp%3Fpage=Concepts&amp;r1=-1&amp;r2=1.html">22-Feb-2007 20:40</a> by UnknownAuthor
+    
+
+    
+
+   
+
+  
+
+   
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div id="favorites">
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=Concepts.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+  
+    <a href="UserPreferences.jsp%3Fredirect=Concepts.html"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+
+  <div class="clearbox"></div>
+
+</div>
+  
+  <div id="hiddenmorepopup">
+  <ul id="morepopup">
+     
+       	
+     
+       
+     
+    
+       
+     
+       <li>
+       
+       <a class="action rawpage wikipage" 
+               href="Wiki.jsp%3Fpage=Concepts&amp;skin=raw.html"
+              title="View Page Source">View Page Source
+       </a>
+       
+       
+       </li>
+      
+        
+  
+      
+      
+      
+
+      
+	  <li class='separator'>
+        <div id="moremenu" ></div>
+      </li>
+  </ul>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+  <div class="leftmenu">
+    <p><a class="wikipage" href="Wiki.jsp%3Fpage=Main.html">Main page</a><br />
+<tt> </tt><i><a class="wikipage" href="Wiki.jsp%3Fpage=ThisWiki.html">About</a></i><br />
+</p><p><a class="wikipage" href="Wiki.jsp%3Fpage=GettingStarted.html">Getting Started</a><br />
+</p>
+<p><b>Documentation</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Developers.html">Developers</a><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Javadocs.html">Javadocs</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Designers.html">Designers</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=SampleRSFApps.html">Sample RSF Apps</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Presentations.html">Presentations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Acronyms.html">Acronyms</a><br />
+</p>
+<p><b>Downloads</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Downloads.html">Current Release</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=TrunkCode.html">Trunk</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=CodeDistributions.html">Distributions</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=OldCode.html">Old Versions</a><br />
+</p>
+<p><b>Community</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=QampA.html">Q&amp;A</a><br />
+<tt> </tt><a class="external" href="http://ponder.org.uk/rsf/">Forums</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=EmailLists.html">Mailing Lists</a><br />
+<tt> </tt><a class="external" href="http://www.caret.cam.ac.uk/jira/browse/RSF">Issue Tracker</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=azeckoski.html">People</a><br />
+</p>
+<p><b>Design</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Roadmap.html">Roadmap</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Concepts.html">Concepts</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Philosophy.html">Philosophy</a><br />
+</p>
+<div style="font-style:italic;font-size:0.8em;">
+<b>Pages</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=FindPage.html">Find</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=RecentChanges.html">Recent Changes</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UnusedPages.html">Unused</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UndefinedPages.html">Undefined</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=PageIndex.html">Index</a>
+</div>
+<p />
+    
+  </div>
+  
+  <div class="leftmenufooter">
+    <hr />
+<p><b>Referenced by</b><br />
+<a class="wikipage" href="Wiki.jsp%3Fpage=Acronyms.html">Acronyms</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=LeftMenu.html">LeftMenu</a><br />
+</p>
+    
+  </div>
+
+  
+
+  
+  
+  <div class="wikiversion">JSPWiki v2.8.2
+  <span class="rssfeed">
+    
+  </span>
+  </div>  
+  
+</div>
+
+	<div class="clearbox"></div>
+  </div>
+
+  
+
+
+
+
+
+ 
+<div id="footer">
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  <div class="copyright"></div>
+
+  <div class="wikiversion">
+    JSPWiki v2.8.2
+  </div>
+
+  <div class="rssfeed">
+    
+  </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+

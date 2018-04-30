@@ -1,0 +1,637 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html id="top" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>
+    RSF Wiki: IKATAlgorithm
+  </title>
+  
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" media="screen, projection, print" type="text/css"
+     href="templates/default/jspwiki.css"/>
+
+<link rel="stylesheet" type="text/css" media="print" 
+     href="templates/default/jspwiki_print.css" />
+<!-- INCLUDERESOURCES (stylesheet) -->
+
+<!-- INCLUDERESOURCES (inlinecss) -->
+
+
+
+<noscript>
+<style type="text/css">
+#hiddenmorepopup { display:block; }
+</style>
+</noscript>
+
+
+<script type="text/javascript" src="scripts/mootools.js"></script>
+<script type="text/javascript" src="scripts/prettify.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-common.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-commonstyles.js"></script>
+<!-- INCLUDERESOURCES (script) -->
+
+
+
+
+
+<meta name="wikiContext" content='view' />
+<meta name="wikiBaseUrl" content='http://rsf.fluidproject.org/wiki/' />
+<meta name="wikiPageUrl" content='/wiki/Wiki.jsp?page=%23%24%25' />
+<meta name="wikiEditUrl" content='/wiki/Edit.jsp?page=IKATAlgorithm' />
+<meta name="wikiJsonUrl" content='/wiki/JSON-RPC' />
+<meta name="wikiPageName" content='IKATAlgorithm' />
+<meta name="wikiUserName" content='205.211.169.35' />
+<meta name="wikiTemplateUrl" content='/wiki/templates/default/' />
+<meta name="wikiApplicationName" content='RSF Wiki' />
+
+<script type="text/javascript">//<![CDATA[
+/* Localized javascript strings: LocalizedStrings[] */
+var LocalizedStrings = {
+"javascript.edit.allsections":"( All )",
+"javascript.slimbox.error":"<h2>Error</h2>There was a problem with your request.<br />Please try again",
+"javascript.slimbox.remoteRequest":"Remote Request {0} of {1}",
+"javascript.slimbox.close":"Close &#215;",
+"javascript.quick.edit":"[Edit]",
+"javascript.sort.descending":"Descending order. Click to reverse sort order",
+"javascript.expand":"Click to expand",
+"javascript.group.validName":"Please provide a valid name for the new Group",
+"javascript.slimbox.next":"Next&raquo;",
+"javascript.filter.all":"( All )",
+"javascript.edit.areyousure":"Without clicking the Save button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.quick.edit.title":"Edit section {0}...",
+"javascript.slimbox.directLink":"Direct Link to the target",
+"javascript.prefs.areyousure":"Without clicking the Save User Preferences button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.sbox.clone.suffix":"-New",
+"javascript.slimbox.info":"Image {0} of {1}",
+"javascript.tip.default.title":"More...",
+"javascript.edit.resize":"Drag to resize the text area",
+"javascript.edit.findandreplace.nomatch":"No match found!",
+"javascript.sort.ascending":"Ascending order. Click to reverse sort order",
+"javascript.slimbox.close.title":"Close [Esc]",
+"javascript.edit.toolbar.makeSelection":"Please make first a selection.",
+"javascript.favs.hide":"Click to hide Favorites",
+"javascript.sectionediting.label":"Section Overview",
+"javascript.slimbox.previous":"&laquo;Previous",
+"javascript.favs.show":"Click to show Favorites",
+"javascript.collapse":"Click to collapse",
+"javascript.category.title":"Click to show category [{0}] ...",
+"javascript.sort.click":"Click to sort",
+"javascript.edit.startOfPage":"( Start of page )"
+};
+
+
+/* INCLUDERESOURCES (jsfunction) */
+
+//]]></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="search" href="Wiki.jsp%3Fpage=FindPage.html"
+    title='Search RSF Wiki' />
+<link rel="help"   href="Wiki.jsp%3Fpage=TextFormattingRules.html"
+    title="Help" />
+
+ <link rel="start"  href="Wiki.jsp%3Fpage=Main.html"
+    title="Front page" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki_print.css"
+    title="Print friendly" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki.css"
+    title="Standard" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+</head>
+
+<body class="view">
+
+<div id="wikibody" class="fav-left">
+ 
+  
+
+
+
+
+
+
+<div id="header">
+
+  <div class="titlebox"></div>
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=IKATAlgorithm.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+  
+    <a href="UserPreferences.jsp%3Fredirect=IKATAlgorithm.html"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+
+  <div class="clearbox"></div>
+
+</div>
+
+  <div class="pagename">IKATAlgorithm</div>
+
+  <div class="searchbox">
+
+
+
+
+
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/Search.jsp"
+        class="wikiform"
+           id="searchForm" accept-charset="UTF-8">
+
+  <div style="position:relative">
+  <input onblur="if( this.value == '' ) { this.value = this.defaultValue }; return true; "
+        onfocus="if( this.value == this.defaultValue ) { this.value = ''}; return true; "
+           type="text" value="Quick Navigation"
+           name="query" id="query"
+           size="20" 
+      accesskey="f" />
+  <button type="submit"
+  		 name="searchSubmit" id="searchSubmit"
+  		value="Go!"
+  		title="Go!"></button>
+  </div>
+  <div id="searchboxMenu" style='visibility:hidden;'>
+    <div id="searchTools">
+      <a href="Wiki.jsp%3Fpage=IKATAlgorithm.html#" id='quickView' class='action'
+      onclick="SearchBox.navigate( '/wiki/Wiki.jsp?page=__PAGEHERE__','View the selected page' );"
+        title="View the selected page">view</a>
+      <a href="Wiki.jsp%3Fpage=IKATAlgorithm.html#" id='quickEdit' class='action'
+      onclick="SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__','Edit the selected page' );"
+        title="Edit the selected page">edit</a>
+      <a href="Wiki.jsp%3Fpage=IKATAlgorithm.html#" id='quickClone' class='action'	
+      onclick="return SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__', 'Clone the selected page', true );"
+        title="Clone the selected page">clone</a>
+      <a href="Wiki.jsp%3Fpage=IKATAlgorithm.html#" id="advancedSearch" class='action'
+      onclick="SearchBox.navigate( 'http://rsf.fluidproject.org/wiki/Search.jsp?query=__PAGEHERE__','IKATAlgorithm' )"
+        title="Advanced Search [ f ]">find</a>
+    </div>
+    <div id="searchResult" >
+	  Quick search
+      <span id="searchTarget" >(type ahead)</span>
+      <span id="searchSpin" class="spin" style="position:absolute;display:none;"></span>
+	  <div id="searchOutput" ></div>
+    </div>
+    <div id="recentSearches" style="display:none;">
+      Recent Searches
+      <span><a href="Wiki.jsp%3Fpage=IKATAlgorithm.html#" id="recentClear">(Clear)</a></span>
+    </div>
+  </div>
+
+</form></div>
+
+  <div class="breadcrumbs">Your trail:&nbsp;<a class="wikipage" href="Wiki.jsp%3Fpage=Level1Error.html">Level1Error</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=MultiRequestState.html">MultiRequestState</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=NavigationCase.html">NavigationCase</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ViewParameters.html">ViewParameters</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=Tapestry.html">Tapestry</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=RIFE.html">RIFE</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WebWork.html">WebWork</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=View.html">View</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ViewTemplate.html">ViewTemplate</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=IKATFunctionCall.html">IKATFunctionCall</a></div>
+
+</div>
+
+  <div id="content">
+
+    <div id="page">
+      
+
+
+
+
+
+<div id="actionsTop" class="pageactions"> 
+  <ul>
+
+    
+    
+    
+
+    
+    <li id="morebutton">
+      <a href="Wiki.jsp%3Fpage=MoreMenu.html" class="action more">More...</a>
+    </li>
+
+  </ul>
+</div>
+
+      
+
+
+
+
+
+
+
+
+<div class="tabmenu">
+
+  
+
+  
+
+  
+  
+  
+    
+  
+    
+  
+
+
+
+  <a class="activetab" id="menu-pagecontent" accesskey="v" ><span class='accesskey'>V</span>iew</a>
+
+  
+
+  
+  <a id="menu-attach" accesskey="a" ><span class='accesskey'>A</span>ttach</a>
+  
+    
+  <a id="menu-info" href='PageInfo.jsp%3Fpage=IKATAlgorithm.html' accesskey="i" ><span class='accesskey'>I</span>nfo</a>
+    
+  
+
+</div>
+<div class="tabs">
+
+  <div id="pagecontent" >
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<p>For the best understanding of IKAT, it would probably be best to go to <a class="wikipage" href="Wiki.jsp%3Fpage=DansIKATExplanation.html">DansIKATExplanation</a> (Dan's comment - this page is an attempt to come to a clear description of IKAT by Dan having a go at what he understood). <a class="wikipage" href="Wiki.jsp%3Fpage=azeckoski.html">Dan</a>'s explanation is much clearer and direct than anything I could come up with, and talks about green strawberries. Hopefully we will have lots of examples on this site soon, since trying to understand the algorithm in itself is pretty pointless without some idea of what it enables you to <i>do</i>.
+</p><hr />
+Antranig's original explanation:
+<p>The IKAT algorithm is described here - not in pseudocode order, but in an order that involves as few forward references to concepts as possible. For those interested in a more code-based presentation I can only recommend they look at the <a class="wikipage" href="Wiki.jsp%3Fpage=ViewTemplate.html">ViewTemplate.java</a> file where it is defined.
+</p>
+<ol><li>The &quot;base state&quot; of IKAT is to be rendering linearly through the template file, simply copying from input to output, until a tag mentioning the <tt>rsf:id</tt> attribute is met. The &quot;base state&quot; is also referred to as &quot;template-driven rendering&quot;.
+</li><li>At any time in the &quot;base state&quot;, IKAT has in its hands the &quot;current container&quot;, which is an instance of <a class="createpage" href="Edit.jsp%3Fpage=UIContainer.html" title="Create &quot;UIContainer&quot;">UIContainer</a> in which child components are to be looked up.
+</li><li>Also at any time in the &quot;base state&quot; IKAT is aware of both the current nesting depth (in terms of template XML tags) and also the initial nesting depth at which it entered the base state.
+</li><li>IKAT begins in the &quot;base state&quot; at the head of the &quot;root template&quot; file, which is specially designated by the lookup from the <a class="createpage" href="Edit.jsp%3Fpage=TemplateResolver.html" title="Create &quot;TemplateResolver&quot;">TemplateResolver</a>. There may be several other template files also added to the resolution set. In this initial state, the current container is set to the root container of the <a class="wikipage" href="Wiki.jsp%3Fpage=View.html">View</a> object accepted as argument.
+</li><li>When IKAT encounters an <tt>rsf:id</tt>, it will take one of three actions depending on the value of the attribute.
+<ol><li>For an <tt>rsf:id</tt> containing neither a colon <tt>:</tt> nor an equals character <tt>=</tt>, IKAT will interpret the attribute value as the <a class="wikipage" href="Wiki.jsp%3Fpage=IDs.html">ID</a> of a <a class="wikipage" href="Wiki.jsp%3Fpage=Component.html">leaf component</a>, the <a class="createpage" href="Edit.jsp%3Fpage=Peer.html" title="Create &quot;Peer&quot;">Peer</a> of the current template tag, which must occur as a child of the current container. IKAT looks up the component, and passes it together with the current template position to the current <a class="wikipage" href="Wiki.jsp%3Fpage=RenderSystem.html">RenderSystem</a>, which will look up a suitable <a class="wikipage" href="Wiki.jsp%3Fpage=ComponentRenderer.html">ComponentRenderer</a> based on the type of the component, and write transformed template data to output based on an inspection of both the template data and component field values. After leaf rendering, IKAT continues in the base state at a new template location determined by the renderer (either after the opening tag, or after the closing tag just seen in the template).
+</li><li>For an <tt>rsf:id</tt> containing an equals character, IKAT extracts the suffix following the <tt>=</tt> (prefix reserved for future expansion, currently <tt>scr</tt>) and uses it as an index into a request-scope container of <tt>StaticComponentRenderers</tt>. Similar to the case above, IKAT invokes the SCR and steps along in the template, remaining in the base state.
+</li><li>For an <tt>rsf:id</tt> containing a colon, IKAT leaves the base state and enters the &quot;extended state&quot;, also referred to as &quot;component-driven rendering&quot;. At this point IKAT assembles the list of all children of the &quot;current container&quot; sharing the prefix of the ID (before the colon). Each of these children must themselves be a container whose ID will necessarily contain a colon. IKAT iterates over each of these &quot;prefix-sharing children&quot; (PSC), executing the following steps for each one:
+<ol><li>For each (PSC) of the current container in the &quot;extended state&quot;, the <a class="wikipage" href="Wiki.jsp%3Fpage=IKATFunctionCall.html">IKAT function call</a> is invoked, the key step of the IKAT algorithm. IKAT assembles a <a class="wikipage" href="Wiki.jsp%3Fpage=ResolutionSet.html">resolution set</a> consisting of ALL open tag locations in ALL templates which share the prefix of the PSC. The &quot;best match&quot; is chosen by a procedure explained on the <a class="wikipage" href="Wiki.jsp%3Fpage=IKATFunctionCall.html">IKAT function call</a> page. The current template location (index and file) are <i>pushed on the stack</i>, and IKAT resumes execution in the &quot;base state&quot; with the current container set equal to the PSC.
+</li><li>When the &quot;function call&quot; returns, and there is at least one further child left, IKAT will briefly enter the &quot;glue state&quot; where it scans along the template simply copying all data it finds until the next instance of a tag with the current prefix, OR ELSE falls below the nesting depth at which it started doing so<a class="footnoteref" href="Wiki.jsp%3Fpage=IKATAlgorithm.html#ref-IKATAlgorithm-1">[1]</a>.
+</li></ol></li></ol></li><li>If while in the base state, IKAT encounters a tag with a nesting depth <i>lower</i> than the initial depth, the &quot;function call&quot; will &quot;return&quot; - IKAT will restore the values of the &quot;current container&quot;, template index pointer and initial nesting depth from the stack frame, and resume scanning in the &quot;extended state&quot; at the restored index pointer.
+</li><li>If while in the base state IKAT falls off the end of the root template file, rendering is concluded.
+</li></ol><hr />
+<a class="footnote" name="ref-IKATAlgorithm-1">[#1]</a> NB - there is some scope for fusing the &quot;glue state&quot; with the &quot;base state&quot; if we can think of any benefits to this. Currently &quot;glue&quot; is not allowed to contain further components, and I can't at the moment think of any reason to allow anything so confusing. The &quot;glue state&quot; is meant to allow &quot;spacer&quot; components between repeated elements to be encoded in the template, and has been enormously slimmed down from an initial highly ambitious scheme whereby all possible transitions between child suffices would be mapped within the template in order to locate much more relevant &quot;multi-coloured glue&quot;. So far the only &quot;glue&quot; that has ever been used is rather drab and grey consists of an &nbsp; or a hyphen...
+<p />
+<p />
+
+
+
+
+
+
+        
+  </div>
+
+
+  
+
+  
+  <div id="attach" class="hidetab" >
+
+    
+
+
+
+
+
+
+
+
+
+
+<div id="addattachment">
+<h3>Add new attachment</h3>
+
+
+<div class="formhelp">Only authorized users are allowed to upload new attachments.</div>
+
+</div>
+
+
+
+  </div>
+
+  
+    
+  <div id="info" class="hidetab" >
+
+  </div>
+
+    
+  
+
+<div style="clear:both;" ></div>
+</div>
+
+      
+
+
+
+
+
+
+
+<div id='actionsBottom' class="pageactions"> 
+    
+
+    <a href="Wiki.jsp%3Fpage=IKATAlgorithm.html#top" 
+      class="action quick2top" 
+      title="Go to top" >&laquo;</a>
+
+    
+       This page (revision-) was last changed on <a href="Diff.jsp%3Fpage=IKATAlgorithm&amp;r1=-1&amp;r2=1.html">01-Aug-2007 12:35</a> by UnknownAuthor
+    
+
+    
+
+   
+
+  
+
+   
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div id="favorites">
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=IKATAlgorithm.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+  
+    <a href="UserPreferences.jsp%3Fredirect=IKATAlgorithm.html"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+
+  <div class="clearbox"></div>
+
+</div>
+  
+  <div id="hiddenmorepopup">
+  <ul id="morepopup">
+     
+       	
+     
+       
+     
+    
+       
+     
+       <li>
+       
+       <a class="action rawpage wikipage" 
+               href="Wiki.jsp%3Fpage=IKATAlgorithm&amp;skin=raw.html"
+              title="View Page Source">View Page Source
+       </a>
+       
+       
+       </li>
+      
+        
+  
+      
+      
+      
+
+      
+	  <li class='separator'>
+        <div id="moremenu" ></div>
+      </li>
+  </ul>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+  <div class="leftmenu">
+    <p><a class="wikipage" href="Wiki.jsp%3Fpage=Main.html">Main page</a><br />
+<tt> </tt><i><a class="wikipage" href="Wiki.jsp%3Fpage=ThisWiki.html">About</a></i><br />
+</p><p><a class="wikipage" href="Wiki.jsp%3Fpage=GettingStarted.html">Getting Started</a><br />
+</p>
+<p><b>Documentation</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Developers.html">Developers</a><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Javadocs.html">Javadocs</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Designers.html">Designers</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=SampleRSFApps.html">Sample RSF Apps</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Presentations.html">Presentations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Acronyms.html">Acronyms</a><br />
+</p>
+<p><b>Downloads</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Downloads.html">Current Release</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=TrunkCode.html">Trunk</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=CodeDistributions.html">Distributions</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=OldCode.html">Old Versions</a><br />
+</p>
+<p><b>Community</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=QampA.html">Q&amp;A</a><br />
+<tt> </tt><a class="external" href="http://ponder.org.uk/rsf/">Forums</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=EmailLists.html">Mailing Lists</a><br />
+<tt> </tt><a class="external" href="http://www.caret.cam.ac.uk/jira/browse/RSF">Issue Tracker</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=azeckoski.html">People</a><br />
+</p>
+<p><b>Design</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Roadmap.html">Roadmap</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Concepts.html">Concepts</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Philosophy.html">Philosophy</a><br />
+</p>
+<div style="font-style:italic;font-size:0.8em;">
+<b>Pages</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=FindPage.html">Find</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=RecentChanges.html">Recent Changes</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UnusedPages.html">Unused</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UndefinedPages.html">Undefined</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=PageIndex.html">Index</a>
+</div>
+<p />
+    
+  </div>
+  
+  <div class="leftmenufooter">
+    <hr />
+<p><b>Referenced by</b><br />
+<a class="wikipage" href="Wiki.jsp%3Fpage=IKAT.html">IKAT</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=IKATFunctionCall.html">IKATFunctionCall</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=UIBranchContainer.html">UIBranchContainer</a><br />
+</p>
+    
+  </div>
+
+  
+
+  
+  
+  <div class="wikiversion">JSPWiki v2.8.2
+  <span class="rssfeed">
+    
+  </span>
+  </div>  
+  
+</div>
+
+	<div class="clearbox"></div>
+  </div>
+
+  
+
+
+
+
+
+ 
+<div id="footer">
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  <div class="copyright"></div>
+
+  <div class="wikiversion">
+    JSPWiki v2.8.2
+  </div>
+
+  <div class="rssfeed">
+    
+  </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+

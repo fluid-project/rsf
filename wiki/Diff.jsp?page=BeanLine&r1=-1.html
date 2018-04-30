@@ -1,0 +1,826 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html id="top" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>
+    RSF Wiki: BeanLine
+  </title>
+  
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" media="screen, projection, print" type="text/css"
+     href="templates/default/jspwiki.css"/>
+
+<link rel="stylesheet" type="text/css" media="print" 
+     href="templates/default/jspwiki_print.css" />
+<!-- INCLUDERESOURCES (stylesheet) -->
+
+<!-- INCLUDERESOURCES (inlinecss) -->
+
+
+
+<noscript>
+<style type="text/css">
+#hiddenmorepopup { display:block; }
+</style>
+</noscript>
+
+
+<script type="text/javascript" src="scripts/mootools.js"></script>
+<script type="text/javascript" src="scripts/prettify.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-common.js"></script>
+<script type="text/javascript" src="scripts/jspwiki-commonstyles.js"></script>
+<!-- INCLUDERESOURCES (script) -->
+
+
+
+
+
+<meta name="wikiContext" content='diff' />
+<meta name="wikiBaseUrl" content='http://rsf.fluidproject.org/wiki/' />
+<meta name="wikiPageUrl" content='/wiki/Wiki.jsp?page=%23%24%25' />
+<meta name="wikiEditUrl" content='/wiki/Edit.jsp?page=BeanLine' />
+<meta name="wikiJsonUrl" content='/wiki/JSON-RPC' />
+<meta name="wikiPageName" content='BeanLine' />
+<meta name="wikiUserName" content='205.211.169.35' />
+<meta name="wikiTemplateUrl" content='/wiki/templates/default/' />
+<meta name="wikiApplicationName" content='RSF Wiki' />
+
+<script type="text/javascript">//<![CDATA[
+/* Localized javascript strings: LocalizedStrings[] */
+var LocalizedStrings = {
+"javascript.edit.allsections":"( All )",
+"javascript.slimbox.error":"<h2>Error</h2>There was a problem with your request.<br />Please try again",
+"javascript.slimbox.remoteRequest":"Remote Request {0} of {1}",
+"javascript.slimbox.close":"Close &#215;",
+"javascript.quick.edit":"[Edit]",
+"javascript.sort.descending":"Descending order. Click to reverse sort order",
+"javascript.expand":"Click to expand",
+"javascript.group.validName":"Please provide a valid name for the new Group",
+"javascript.slimbox.next":"Next&raquo;",
+"javascript.filter.all":"( All )",
+"javascript.edit.areyousure":"Without clicking the Save button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.quick.edit.title":"Edit section {0}...",
+"javascript.slimbox.directLink":"Direct Link to the target",
+"javascript.prefs.areyousure":"Without clicking the Save User Preferences button, your changes will be lost. Are you sure you want to exit this page?",
+"javascript.sbox.clone.suffix":"-New",
+"javascript.slimbox.info":"Image {0} of {1}",
+"javascript.tip.default.title":"More...",
+"javascript.edit.resize":"Drag to resize the text area",
+"javascript.edit.findandreplace.nomatch":"No match found!",
+"javascript.sort.ascending":"Ascending order. Click to reverse sort order",
+"javascript.slimbox.close.title":"Close [Esc]",
+"javascript.edit.toolbar.makeSelection":"Please make first a selection.",
+"javascript.favs.hide":"Click to hide Favorites",
+"javascript.sectionediting.label":"Section Overview",
+"javascript.slimbox.previous":"&laquo;Previous",
+"javascript.favs.show":"Click to show Favorites",
+"javascript.collapse":"Click to collapse",
+"javascript.category.title":"Click to show category [{0}] ...",
+"javascript.sort.click":"Click to sort",
+"javascript.edit.startOfPage":"( Start of page )"
+};
+
+
+/* INCLUDERESOURCES (jsfunction) */
+
+//]]></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="search" href="Wiki.jsp%3Fpage=FindPage.html"
+    title='Search RSF Wiki' />
+<link rel="help"   href="Wiki.jsp%3Fpage=TextFormattingRules.html"
+    title="Help" />
+
+ <link rel="start"  href="Wiki.jsp%3Fpage=Main.html"
+    title="Front page" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki_print.css"
+    title="Print friendly" />
+<link rel="alternate stylesheet" type="text/css" href="templates/default/jspwiki.css"
+    title="Standard" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    <meta name="robots" content="noindex,nofollow" />
+  
+  
+    <meta name="robots" content="noindex,follow" />
+  
+</head>
+
+<body class="view">
+
+<div id="wikibody" class="fav-left">
+ 
+  
+
+
+
+
+
+
+<div id="header">
+
+  <div class="titlebox"></div>
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=BeanLine.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+  
+    <a href="UserPreferences.jsp%3Fredirect=BeanLine.html"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+
+  <div class="clearbox"></div>
+
+</div>
+
+  <div class="pagename">BeanLine</div>
+
+  <div class="searchbox">
+
+
+
+
+
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/Search.jsp"
+        class="wikiform"
+           id="searchForm" accept-charset="UTF-8">
+
+  <div style="position:relative">
+  <input onblur="if( this.value == '' ) { this.value = this.defaultValue }; return true; "
+        onfocus="if( this.value == this.defaultValue ) { this.value = ''}; return true; "
+           type="text" value="Quick Navigation"
+           name="query" id="query"
+           size="20" 
+      accesskey="f" />
+  <button type="submit"
+  		 name="searchSubmit" id="searchSubmit"
+  		value="Go!"
+  		title="Go!"></button>
+  </div>
+  <div id="searchboxMenu" style='visibility:hidden;'>
+    <div id="searchTools">
+      <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1.html#" id='quickView' class='action'
+      onclick="SearchBox.navigate( '/wiki/Wiki.jsp?page=__PAGEHERE__','View the selected page' );"
+        title="View the selected page">view</a>
+      <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1.html#" id='quickEdit' class='action'
+      onclick="SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__','Edit the selected page' );"
+        title="Edit the selected page">edit</a>
+      <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1.html#" id='quickClone' class='action'	
+      onclick="return SearchBox.navigate( '/wiki/Edit.jsp?page=__PAGEHERE__', 'Clone the selected page', true );"
+        title="Clone the selected page">clone</a>
+      <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1.html#" id="advancedSearch" class='action'
+      onclick="SearchBox.navigate( 'http://rsf.fluidproject.org/wiki/Search.jsp?query=__PAGEHERE__','BeanLine' )"
+        title="Advanced Search [ f ]">find</a>
+    </div>
+    <div id="searchResult" >
+	  Quick search
+      <span id="searchTarget" >(type ahead)</span>
+      <span id="searchSpin" class="spin" style="position:absolute;display:none;"></span>
+	  <div id="searchOutput" ></div>
+    </div>
+    <div id="recentSearches" style="display:none;">
+      Recent Searches
+      <span><a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1.html#" id="recentClear">(Clear)</a></span>
+    </div>
+  </div>
+
+</form></div>
+
+  <div class="breadcrumbs">Your trail:&nbsp;<a class="wikipage" href="Wiki.jsp%3Fpage=UserNameTag.html">UserNameTag</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ValueBinding.html">ValueBinding</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=VariableTag.html">VariableTag</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=VeryLazyBeans.html">VeryLazyBeans</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ViewID.html">ViewID</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=ViewRender.html">ViewRender</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WeblogEntryPlugin.html">WeblogEntryPlugin</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WeblogPlugin.html">WeblogPlugin</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=WikiFormsExampleText.html">WikiFormsExampleText</a>, <a class="wikipage" href="Wiki.jsp%3Fpage=XPP.html">XPP</a></div>
+
+</div>
+
+  <div id="content">
+
+    <div id="page">
+      
+
+
+
+
+
+<div id="actionsTop" class="pageactions"> 
+  <ul>
+
+    
+    
+    
+
+    
+    <li id="morebutton">
+      <a href="Wiki.jsp%3Fpage=MoreMenu.html" class="action more">More...</a>
+    </li>
+
+  </ul>
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="tabmenu">
+
+  
+
+  
+
+  
+  
+
+  
+
+  <a id="menu-pagecontent" href='Wiki.jsp%3Fpage=BeanLine.html' accesskey="v" ><span class='accesskey'>V</span>iew</a>
+
+  <a id="menu-attach" accesskey="a" ><span class='accesskey'>A</span>ttach</a>
+
+  
+  <a class="activetab" id="menu-info" accesskey="i" ><span class='accesskey'>I</span>nfo</a>
+
+  </div>
+<div class="tabs">
+
+  <div id="pagecontent" class="hidetab" >
+
+      
+  </div>
+
+
+  <div id="attach" class="hidetab" >
+
+    
+
+
+
+
+
+
+
+
+
+
+<div id="addattachment">
+<h3>Add new attachment</h3>
+
+
+<div class="formhelp">Only authorized users are allowed to upload new attachments.</div>
+
+</div>
+
+
+
+  </div>
+
+
+  
+  <div id="info" >
+
+  <p>
+  This page (revision-1) was last changed on <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1&amp;r2=1.html"
+        title="Show changes of last page update" >
+        01-Aug-2007 12:03
+      </a> by UnknownAuthor
+
+  
+  </p>
+
+  
+
+  
+  
+      <p>Only authorized users are allowed to rename pages.</p>
+  
+
+  
+  
+      <p>Only authorized users are allowed to delete pages.</p>
+  
+
+  <div class="collapsebox-closed" id="incomingLinks">
+  <h4>Incoming links</h4>
+    <a class="wikipage" href="Wiki.jsp%3Fpage=BeanLine.html" accesskey="" title="">BeanLine</a>
+    <ul><li><a class="wikipage" href="Wiki.jsp%3Fpage=Action.html">Action</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=ActionResultInterpreter.html">ActionResultInterpreter</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Component.html">Component</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Concepts.html">Concepts</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Levelization.html">Levelization</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Peas.html">Peas</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Qwicap.html">Qwicap</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=State.html">State</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=Structure.html">Structure</a>
+</li><li><a class="wikipage" href="Wiki.jsp%3Fpage=TargettedMessageList.html">TargettedMessageList</a>
+</li></ul>
+  </div>
+
+  <div class="collapsebox-closed" id="outgoingLinks">
+  <h4>Outgoing links</h4>
+    <div class="ReferredPagesPlugin">
+<a class="wikipage" href="Wiki.jsp%3Fpage=BeanLine.html" title="ReferredPagesPlugin: depth[1] include[.*] exclude[^$] format[compact]">BeanLine</a>
+<ul>
+<li><a class="wikipage" href="Wiki.jsp%3Fpage=BeanReasonableness.html">BeanReasonableness</a></li>
+<li><a class="wikipage" href="Wiki.jsp%3Fpage=Levelization.html">Levelization</a></li>
+<li><a class="wikipage" href="Wiki.jsp%3Fpage=Peas.html">Peas</a></li>
+<li><a class="wikipage" href="Wiki.jsp%3Fpage=UserPreferences.html">UserPreferences</a></li>
+</ul>
+</div>
+
+  </div>
+
+  <div class="clearbox"></div>
+
+  
+  
+     
+
+
+
+
+
+
+
+
+
+
+
+
+<form action="http://xen0.idrc.ocadu.ca/wiki/Diff.jsp" method="get" accept-charset="UTF-8">
+<div class="collapsebox" id="diffcontent">
+  <h4>
+       <input type="hidden" name="page" value="BeanLine" />
+       Difference between version <select id="r1" name="r1" onchange="this.form.submit();" >
+           
+             <option value="-1" selected="selected" >-1</option>
+           
+           </select> and <select id="r2" name="r2" onchange="this.form.submit();" >
+           
+             <option value="-1" selected="selected" >-1</option>
+           
+           </select>
+  </h4>
+
+  
+
+  <div class="diffbody">
+    <table class="diff" border="0" cellspacing="0" cellpadding="0">
+<tr><td class="diff">At line 1 added 65 lines</td></tr>
+<tr><td class="diffadd">The Bean Line is a hypothetical line of dependency dividing code with a dependence on a framework from code without it. &quot;First-generation&quot; [0] (JSPs, Struts, Tapestry &amp;c) have no bean line at all - to use the framework, your code must be dependent on it, and if you wish to be free of this dependency you must conceive and implement an abstraction layer of your own.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">JSF was the first really popular end-to-end web framework that featured a bean line [1] and this was responsible for a lot its early appeal (to us here at CARET). Spring and similar [IoC|http://jakarta.apache.org/hivemind/ioc.html] [2] containers are the sort of technology that make a &quot;bean line&quot; possible to maintain in a large-scale architecture in the first place.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">For example, in Tapestry, an app is built out of components implementing the &quot;IComponent&quot; interface. And rather than pure beans, Tapestry &quot;state-holding&quot;/&quot;action invoking&quot; components look like this:</td></tr>
+<tr><td class="diffadd">{{{</td></tr>
+<tr><td class="diffadd">public abstract class Home extends BasePage</td></tr>
+<tr><td class="diffadd">{</td></tr>
+<tr><td class="diffadd">  @Persist</td></tr>
+<tr><td class="diffadd">    public abstract int getCounter();</td></tr>
+<tr><td class="diffadd">    public abstract void setCounter(int counter);</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">    public void doClick()</td></tr>
+<tr><td class="diffadd">}}}</td></tr>
+<tr><td class="diffadd">Notice i) the abstract base class BasePage[3], and ii) the annotation {{@Persist}}. While they are perhaps &quot;cool&quot; and supply a lot of useful functionality without much typing, they tie the business logic of the app forever to Tapestry. If the designer wants to insulate themselves from the framework, there will have to be ANOTHER &quot;dependency firewall&quot; below this line.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">By contrast, a &quot;pure bean&quot; framework would represent this code as follows (this code is possible in both JSF and RSF)</td></tr>
+<tr><td class="diffadd">{{{</td></tr>
+<tr><td class="diffadd">public class Home {</td></tr>
+<tr><td class="diffadd">    public int getCounter();</td></tr>
+<tr><td class="diffadd">    public void setCounter(int counter);</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">    public void doClick()</td></tr>
+<tr><td class="diffadd">}}}</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">(Note that in fact since RSF supports [peas|Peas], this bean could be even simpler:</td></tr>
+<tr><td class="diffadd">{{{</td></tr>
+<tr><td class="diffadd">public class Home {</td></tr>
+<tr><td class="diffadd">  public int counter;</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">  public void doClick();</td></tr>
+<tr><td class="diffadd">}}}</td></tr>
+<tr><td class="diffadd">[4]</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">!!Arguableness of the Bean Line</td></tr>
+<tr><td class="diffadd">There are various considerations that may &quot;dilute&quot; the concept and reality of the Bean Line. For a start, just because a dependency isn't in code, doesn't mean it's no dependency at all. Consider the annotation {{@Persist}} above - it doesn't affect the compiled code (normally) but what if another framework has used this annotation? Secondly there is a whole vast raft of semantic issues. Some of these are considered in [BeanReasonableness] - the point there is that even if no dependence on ''code'' leaks across the bean line, it is quite possible for dependence on ''thought'' to make it.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">!Levelization</td></tr>
+<tr><td class="diffadd">Finally, we should look at the bean line from the point of view of [Levelization]. Lakos' &quot;levelization&quot; concepts help us think about and organise dependencies in our code, starting from the view that the most basic quality our code can have is to at least ''have'' non-infinite level numbers assigned to it (i.e. lack of circular dependencies. You would be ''surprised'' how much code is still being written in certain quarters with no care at all to mutual dependency avoidance - rant later). But building on from this basic guarantee, Lakos identifies derived measures like the &quot;cumulative dependency count&quot; which provides an estimate of the proportion of your code which will be affected by a change in an arbitrary place. &quot;Better&quot; code forms flat, broad hierarchies with few things at the root, &quot;Worse&quot; code forms a vertical hierarchy where at worst half of the code is affected on average by a change.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">It is in these terms we can generally declare things like PonderUtilCore, though undesirably large, fairly harmless since it consists of a lot of little classes with no external dependencies and few internal dependencies, and declare things like the UIComponent hierarchy in JSF extremely harmful since it contains a lot of code (in UIComponentBase, UIContainer and others) that are inflicted on ALL clients on the framework. Recall that &quot;dependence on a base class is the worst dependence of all&quot;.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">Further, in these terms, we see that the value of the &quot;bean line&quot; is that it magically lets us &quot;reset&quot; the dependence level counter to 0 again, and appear to start building code from the ground. Before, the best we could do was to set it to 1, through dependence on an interface supplied by a framework, that itself depended on nothing else. We see that this magic ability could not be present in a non-reflective environment like C++ (where Lakos developed his ideas), but the jury is still out on whether the other run-time and compile-time penalties inflicted by Java outweigh this benefit on the larger projects where it would be expected to be more valuable[5]. This jury takes a hell of a long time to sit, having first entered session some time around 1999...</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">!Leaking across the bean line</td></tr>
+<tr><td class="diffadd">ANYWAY, this sets the context for a discussion of what __actual__ code may sometimes leak across the bean line. Spring sets the example for this - used &quot;properly&quot; (or &quot;minimally&quot;) no dependence on Spring should appear in your codebase. But for clients who are willing to pay the price, Spring also extends the option to get ''better'' support by supplying interfaces and APIs of varying dependency cost - for example BeanNameAware, BeanFactory and ApplicationContextAware are reasonably &quot;cheap&quot; interfaces that clients might want to consider using. </td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">RSF also does this - necessarily the relevant classes should be small and free of further external dependence, and will be placed in PonderUtilCore as befits their status of being &quot;below the bean line&quot;. Clients may argue that while PonderUtilCore is considered below the &quot;bean line&quot; of RSF itself, they ought not be expected to continue it below theirs - some explanation is above why they might be expected to think so! In general PUC code is extremely &quot;flat&quot; in dependence structure and incurs no further dependence costs itself.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">!!Conclusion</td></tr>
+<tr><td class="diffadd">So - what is the bean line? It is a point where the dependence level number within a collection of code drops once again to zero, or near-zero - &quot;One man's bean is another man's application&quot;.</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">----</td></tr>
+<tr><td class="diffadd">[#0] There was originally a slightly more abusive epithet here :P\\</td></tr>
+<tr><td class="diffadd">[#1] I'd be interested to get some input on a historical comparison of other frameworks in this regard.\\</td></tr>
+<tr><td class="diffadd">[#2] Personally I really dislike the term &quot;Inversion of Control&quot; since it comes with the suggestion that your code was once ever the other way up to start with. &quot;Dependency Injection&quot; also just sounds nasty. In fact all of this stuff should just be considered a natural side-effect of &quot;programming properly&quot; which Spring and other IoC simply make a lot easier.\\</td></tr>
+<tr><td class="diffadd">[#3] The author himself notes that this is distasteful. Perhaps it will be gone in Tapestry 5.0.\\</td></tr>
+<tr><td class="diffadd">[#4] Why is it that so many authors refuse to spot that getters and setters are yet another violation of DRY?\\</td></tr>
+<tr><td class="diffadd">[#5] Bob says - &quot;Stop using 'it' and 'this' so much in sentences!&quot;</td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd"></td></tr>
+<tr><td class="diffadd">----</td></tr>
+<tr><td class="diffadd">%%(color: #666666; font-family: sans-serif; font-size:80%)You can post comments and questions on this page using the following blog. Please set your name using [UserPreferences] before posting.%%</td></tr>
+<tr><td class="diffadd">[{INSERT WeblogPlugin}]</td></tr>
+<tr><td class="diffadd">[{INSERT WeblogEntryPlugin}]</td></tr>
+</table>
+ 
+  </div>
+</div>
+</form>
+
+  
+  
+
+	
+    
+    
+
+    
+
+    <div class="zebra-table sortable table-filter">
+    <table class="wikitable" >
+      <tr>
+        <th>Version</th>
+        <th>Date Modified</th>
+        <th>Size</th>
+        <th>Author</th>
+        <th>Changes ...</th>
+        <th class='changenote'>Change note</th>
+      </tr>
+
+      
+      
+      <tr>
+        <td>
+          <a class="wikipage" href="http://xen0.idrc.ocadu.ca/wiki/Wiki.jsp?page=BeanLine&amp;version=-1" accesskey="" title="">
+            
+          </a>
+        </td>
+
+	    <td style="white-space:nowrap;" sortvalue="Wed, 1 Aug 2007 12:03:22">
+        01-Aug-2007 12:03
+        </td>
+        <td style="white-space:nowrap;text-align:right;">
+          
+          7.177&nbsp;kB
+        </td>
+        <td>UnknownAuthor</td>
+
+        <td>
+          
+
+          
+        </td>
+
+         <td class="changenote">
+           
+           
+         </td>
+
+      </tr>
+      
+      
+
+    </table>
+    </div>
+    
+    
+  </div>
+
+
+  <div style="clear:both;" ></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+<div id='actionsBottom' class="pageactions"> 
+    
+
+    <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1.html#top" 
+      class="action quick2top" 
+      title="Go to top" >&laquo;</a>
+
+    
+       This page (revision-) was last changed on <a href="Diff.jsp%3Fpage=BeanLine&amp;r1=-1&amp;r2=1.html">01-Aug-2007 12:03</a> by UnknownAuthor
+    
+
+    
+
+   
+
+  
+
+   
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div id="favorites">
+
+  
+
+
+
+
+
+
+<div class="userbox">
+
+  
+    <span class="username anonymous">
+      G&#8217;day (anonymous guest)
+    </span>
+  
+  
+  
+
+  
+  
+  
+    
+      <a href="Login.jsp%3Fredirect=BeanLine.html" 
+        class="action login"
+        title="Log in or Register as new user">Log in</a>
+    
+  
+  
+  
+  
+
+  
+  
+    <a href="UserPreferences.jsp%3Fredirect=BeanLine.html"
+      class="action prefs" accesskey="p"
+      title="Manage your preferences [ p ]">My <span class='accesskey'>P</span>refs
+    </a>
+  
+  
+
+  <div class="clearbox"></div>
+
+</div>
+  
+  <div id="hiddenmorepopup">
+  <ul id="morepopup">
+     
+       	
+     
+       
+     
+    
+       
+     
+       <li>
+       
+       <a class="action rawpage wikipage" 
+               href="Wiki.jsp%3Fpage=BeanLine&amp;skin=raw.html"
+              title="View Page Source">View Page Source
+       </a>
+       
+       
+       </li>
+      
+        
+  
+      
+      
+      
+
+      
+	  <li class='separator'>
+        <div id="moremenu" ></div>
+      </li>
+  </ul>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+  <div class="leftmenu">
+    <p><a class="wikipage" href="Wiki.jsp%3Fpage=Main.html">Main page</a><br />
+<tt> </tt><i><a class="wikipage" href="Wiki.jsp%3Fpage=ThisWiki.html">About</a></i><br />
+</p><p><a class="wikipage" href="Wiki.jsp%3Fpage=GettingStarted.html">Getting Started</a><br />
+</p>
+<p><b>Documentation</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Developers.html">Developers</a><br />
+<tt>  </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Javadocs.html">Javadocs</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Designers.html">Designers</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=SampleRSFApps.html">Sample RSF Apps</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Presentations.html">Presentations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Acronyms.html">Acronyms</a><br />
+</p>
+<p><b>Downloads</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Downloads.html">Current Release</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=TrunkCode.html">Trunk</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=CodeDistributions.html">Distributions</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=OldCode.html">Old Versions</a><br />
+</p>
+<p><b>Community</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=QampA.html">Q&amp;A</a><br />
+<tt> </tt><a class="external" href="http://ponder.org.uk/rsf/">Forums</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=EmailLists.html">Mailing Lists</a><br />
+<tt> </tt><a class="external" href="http://www.caret.cam.ac.uk/jira/browse/RSF">Issue Tracker</a><img class="outlink" src="images/out.png" alt="" /><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=azeckoski.html">People</a><br />
+</p>
+<p><b>Design</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Roadmap.html">Roadmap</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Concepts.html">Concepts</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=Philosophy.html">Philosophy</a><br />
+</p>
+<div style="font-style:italic;font-size:0.8em;">
+<b>Pages</b><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=FindPage.html">Find</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=RecentChanges.html">Recent Changes</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UnusedPages.html">Unused</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=UndefinedPages.html">Undefined</a><br />
+<tt> </tt><a class="wikipage" href="Wiki.jsp%3Fpage=PageIndex.html">Index</a>
+</div>
+<p />
+    
+  </div>
+  
+  <div class="leftmenufooter">
+    <hr />
+<p><b>Referenced by</b><br />
+<a class="wikipage" href="Wiki.jsp%3Fpage=Action.html">Action</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=ActionResultInterpreter.html">ActionResultInterpre...</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Component.html">Component</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Concepts.html">Concepts</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Integrations.html">Integrations</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Levelization.html">Levelization</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Peas.html">Peas</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Qwicap.html">Qwicap</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=State.html">State</a><br /><a class="wikipage" href="Wiki.jsp%3Fpage=Structure.html">Structure</a><br /><br /><a class='morelink' href='PageInfo.jsp%3Fpage=BeanLine.html' >...and 1 more</a><br />
+</p>
+    
+  </div>
+
+  
+
+  
+  
+  <div class="wikiversion">JSPWiki v2.8.2
+  <span class="rssfeed">
+    
+  </span>
+  </div>  
+  
+</div>
+
+	<div class="clearbox"></div>
+  </div>
+
+  
+
+
+
+
+
+ 
+<div id="footer">
+
+  <div class="applicationlogo" > 
+    <a href="Wiki.jsp%3Fpage=Main.html"
+       title="Go to home page Main ">Home</a>
+  </div>
+
+  <div class="companylogo"></div>
+
+  <div class="copyright"></div>
+
+  <div class="wikiversion">
+    JSPWiki v2.8.2
+  </div>
+
+  <div class="rssfeed">
+    
+  </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
